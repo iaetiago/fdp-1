@@ -1,0 +1,20 @@
+#!/bin/bash
+clear
+echo "Digite um numero:"
+read NUM
+	if (( $NUM == 10 )); then 
+		echo "E igual!"
+		if (( $NUM > 10 )); then 
+ 			echo "E maior que 10!" 
+		fi
+ 			if (( $NUM < 10 )); then 
+				echo "Nao e maior que 10" 
+			fi
+	fi
+
+echo 
+sleep 1
+echo "Digite [ENTER] para sair"
+read YYY
+
+
